@@ -87,7 +87,7 @@ End Sub
 Sub DuplicateRowDelete()
 
     Sheets("sample").Select
-    Range("A1:F1").Select
+    Range("A2:F2").Select
     Range(Selection, Selection.End(xlDown)).RemoveDuplicates Columns:=Array(1, 2, 3, 4, 5, 6), Header:=xlYes
     
 End Sub
